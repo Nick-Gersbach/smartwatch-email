@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="x-apple-disable-message-reformatting">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700;800&display=swap"
+    rel="stylesheet">
+  <title>HTML Email From Scratch</title>
+  <!--[if mso]> 
+<noscript> 
+<xml> 
+<o:OfficeDocumentSettings> 
+<o:PixelsPerInch>96</o:PixelsPerInch> 
+</o:OfficeDocumentSettings> 
+</xml> 
+</noscript> 
+<![endif]-->
+  <style>
+    table,
+    td,
+    div,
+    h1,
+    p {
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    /* table,
+    td {
+      border: 2px solid #000000 !important;
+    } */
+
+    .container {
+      width: 100% !important;
+      min-width: 100% !important;
+      height: auto !important;
+    }
+  </style>
+</head>
+
+<body style="margin:0;padding:0;">
+  <!-- Start of Main Table Container -->
+  <table class="container" role="presentation"
+    style="width:100%;border-collapse:collapse;border:0;border-spacing:0;background:#ffffff; font-family: 'Open Sans', sans-serif;">
+    <tr>
+      <td align="center" style="padding:0;">
+        <!-- Start of 600px Container -->
+        <table role="presentation"
+          style="width:600px;border-collapse:collapse;border:1px solid #cccccc;border-spacing:0;text-align:left;">
+          <!-- Start of Header Row -->
+          <tr>
+            <td style="padding:0;">
+              <table role="presentation" style="width:100%;border-collapse:collapse;border:0;border-spacing:0;">
+                <tr>
+                  <td style="width:260px;padding:0;vertical-align:top; background-color: #0879cf; background-color: rgb(100,255,252);
+                    background: linear-gradient(126deg, rgba(100,255,252,1) 0%, rgba(33,150,238,1) 100%);">
+                    <p style="padding: 10px 0px 0px 20px; margin: 0px;"><img
+                        src="https://images2.imgbox.com/30/7d/2RGT7Idz_o.png" alt="hero logo" width="35"
+                        style="height:auto;display:block; margin: 0px;" /></p>
+                    <p
+                      style="color: #ffffff; padding: 20px 0px 0px 20px; font-size: 32px; font-weight: 300; margin: 0px;">
+                      Get ready
+                      for</p>
+                    <p
+                      style="text-transform: uppercase; font-size: 70px; font-weight: 700; color: #ffffff; padding: 0px 0px 0px 20px; margin: 0px;">
+                      Hero</p>
+                    <p style="padding: 10px 0px 20px 20px; margin: 0px; color: #ffffff;"><em>It seems like hundreds of
+                        new
+                        smartwatch apps
+                        pop up every
+                        week, but which ones should
+                        you bother
+                        trying?</em></p>
+                    <p style="text-transform: uppercase; padding: 0px 0px 20px 20px; margin: 0px;"><a
+                        style="color: #ffffff; text-decoration: none; border: 2px solid #ffffff; padding: 4px 8px; font-size: 12px;"
+                        href="#">Learn
+                        More</a></p>
+
+                  </td>
+
+                  <td style="width:260px;padding:10px 0px 0px 20px;vertical-align:top; text-align: center;">
+                    <table role="presentation" style="width:100%;border-collapse:collapse;border:0;border-spacing:0;">
+                      <tr>
+                        <td align="center"
+                          style="color: #757575; text-transform: uppercase; text-align: center; font-size: 13px; font-weight: 700;letter-spacing: 1px;">
+                          about</td>
+                        <td align="center"
+                          style="color: #757575; text-transform: uppercase; text-align: center; font-size: 13px; font-weight: 700;letter-spacing: 1px;">
+                          careers</td>
+                        <td align="center"
+                          style="color: #757575; text-transform: uppercase; text-align: center; font-size: 13px; font-weight: 700;letter-spacing: 1px;">
+                          contact</td>
+                      </tr>
+                    </table>
+                    <p style="padding: 0px 0px 0px 0px;"><img src="https://images2.imgbox.com/76/90/URTDLyvJ_o.png"
+                        alt="smartwatch" width="320" style="height:auto;display:block;" /></p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!-- End of Header Row -->
+
+
+          <!-- Start of Hero Let's You Row -->
+          <tr>
+            <td style="padding: 0; background: #FAFAFA;">
+              <table role="presentation" style="width:100%;border-collapse:collapse;border:0;border-spacing:0;">
+                <tr>
+                  <td align="center"
+                    style=" padding: 40px 0px 40px 0px; color: #757575; font-size: 32px; font-weight: 300; text-align: center;">
+                    <center>Hero let's you...</center>
+                  </td>
+                </tr>
+              </table>
+              <table role="presentation" style="width:100%;border-collapse:collapse;border:0;border-spacing:0;">
+                <tr>
+                  <td style="width:200px;padding:0px 0px 40px 0px;vertical-align:top;">
+                    <table align="center" role="presentation"
+                      style="width:100;border-collapse:collapse;border:0;border-spacing:0;">
+                      <tr>
+                        <td>
+                          <p><img src="https://thumbs2.imgbox.com/59/a5/lYCj2ga0_t.png" alt="bell icon" width="35"
+                              style="height:auto;display:block; background: #ffffff; height: 45px; width: 45px; border-radius: 50%;" />
+                          </p>
+                        </td>
+                        <td
+                          style="color: #1F1F1F; text-transform: uppercase; font-weight: 700; font-size: 12px; letter-spacing: 1px; padding: 0px 0px 0px 8px;">
+                          <p>Notify</p>
+                        </td>
+                      </tr>
+                    </table>
+                    <p style="color: #949B9A; text-align: center; padding: 0px 0px 0px 0px; font-size: 13px;">Get
+                      messages and social media
+                      updates
+                      instantly</p>
+                    <p style="padding: 0px 0px 0px 10px; text-align:center;"><a
+                        style="color: #2A92EC; text-decoration: none;" href="#">Learn more</a></p>
+                  </td>
+                  <td style="width:200px;padding:0px 0px 40px 0px;vertical-align:top; padding: 0px 0px 0px 10px;">
+                    <table align="center" role="presentation"
+                      style="width:100;border-collapse:collapse;border:0;border-spacing:0;">
+                      <tr>
+                        <td>
+                          <p><img src="https://thumbs2.imgbox.com/8e/81/NCDdPCT7_t.png" alt="share icon" width="35"
+                              style="height:auto;display:block; background: #ffffff; height: 45px; width: 45px; border-radius: 50%;" />
+                          </p>
+                        </td>
+                        <td
+                          style="color: #1F1F1F; text-transform: uppercase; font-weight: 700; font-size: 12px; letter-spacing: 1px; padding: 0px 0px 0px 8px;">
+                          <p>Share</p>
+                        </td>
+                      </tr>
+                    </table>
+                    <p style="color: #949B9A; padding: 0px 0px 0px 0px; text-align: center; font-size: 13px;"> Always
+                      keep friends and
+                      followers updated</p>
+                    <p style="padding: 0px 0px 0px 10px; text-align: center;"><a
+                        style="color: #2A92EC; text-decoration: none;" href="#">Learn more</a></p>
+                  </td>
+                  <td style="width:200px;padding:0px 0px 40px 0px;vertical-align:top;">
+                    <table align="center" role="presentation"
+                      style="width:100;border-collapse:collapse;border:0;border-spacing:0;">
+                      <tr>
+                        <td>
+                          <p><img src="https://thumbs2.imgbox.com/82/d7/7rhvN02y_t.png" alt="wifi icon" width="35"
+                              style="height:auto;display:block; background: #ffffff; height: 45px; width: 45px; border-radius: 50%;" />
+                          </p>
+                        </td>
+                        <td
+                          style="color: #1F1F1F; text-transform: uppercase; font-weight: 700; font-size: 12px; letter-spacing: 1px; padding: 0px 0px 0px 8px;">
+                          <p>Connect</p>
+                        </td>
+                      </tr>
+                    </table>
+                    <p style="color: #949B9A; text-align: center; padding: 0px 0px 0px 0px; font-size: 13px;">Stay
+                      connected with the
+                      latest wifi technology
+                    </p>
+                    <p style="padding: 0px 0px 0px 10px; text-align: center;"><a
+                        style="color: #2A92EC; text-decoration: none;" href="#">Learn more</a></p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!-- End of Hero Let's You Row -->
+
+
+          <!-- Start of Most Advanced Row -->
+          <tr>
+            <td style="padding: 0;">
+              <table role="presentation" style="width:100%;border-collapse:collapse;border:0;border-spacing:0;">
+                <tr>
+                  <td>
+                    <table role="presentation" align="center"
+                      style="width:100%;border-collapse:collapse;border:0;border-spacing:0;">
+                      <tr>
+                        <td align="center" style="padding: 40px 0px 40px 0px;">
+                          <p><img src="https://images2.imgbox.com/2a/d2/7IybUUGg_o.png" alt="app image" width="500"
+                              style="height:auto;display:block;" /></p>
+                        </td>
+                      </tr>
+                    </table>
+                    <table role="presentation" style="width:100%;border-collapse:collapse;border:0;border-spacing:0;">
+                      <tr>
+                        <td style="font-size: 32px; font-weight: 300; color: #757575; padding: 0px 20px 0px 20px;">
+                          <p style="text-align: center;">World's <strong>most advanced app</strong> with High-Tech
+                            solutions</p>
+                        </td>
+                      </tr>
+                    </table>
+                    <table role="presentation" style="width:100%;border-collapse:collapse;border:0;border-spacing:0;">
+                      <tr>
+                        <td style="color: #949B9A; padding: 0px 40px 0px 40px; font-size: 13px; line-height: 1.7;">
+                          <p>The Hero smartwatch app brings the best of everything altogether in one package to help you
+                            get the most out of your watch wearing experience. Our high-tech high performance app uses
+                            the latest technologies to keep you connected.
+                            You'll never be out of the loop with Hero.</p>
+                        </td>
+                      </tr>
+                    </table>
+                    <table role="presentation" style="width:100%;border-collapse:collapse;border:0;border-spacing:0;">
+                      <tr>
+                        <td align="right" style="padding: 10px 10px;">
+                          <a href="#">
+                            <p><img src="https://images2.imgbox.com/4d/1c/lIOumg32_o.png" alt="iOS app store"
+                                width="100" style="height:auto;display:block;" /></p>
+                          </a>
+                        </td>
+                        <td align="left" style="padding: 10px 10px;">
+                          <a href="#">
+                            <p><img src="https://images2.imgbox.com/6e/df/br6arg9l_o.png" alt="Android app store"
+                                width="100" style="height:auto;display:block;" /></p>
+                          </a>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!-- End of Most Advanced Row -->
+
+          <!-- Star of One App One Solution Row -->
+          <tr>
+            <td style="padding: 0;">
+              <table role="presentation" style="width:100%;border-collapse:collapse;border:0;border-spacing:0;">
+                <tr>
+                  <td align="center" style="padding: 40px 0px 40px 0px;">
+                    <p><img src="https://images2.imgbox.com/41/9e/YpBozxjG_o.jpg" alt="app metrics" width="600"
+                        style="height:auto;display:block;" /></p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!-- End of One App One Solution Row -->
+
+          <!-- Start of Features Row -->
+          <tr>
+            <td style="padding: 0;">
+              <table role="presentation" style="width:100%;border-collapse:collapse;border:0;border-spacing:0;">
+                <tr>
+                  <td align="center"
+                    style="font-size: 32px; font-weight: 300; color: #757575; padding: 0px 80px 40px 80px;">
+                    <p>Features <strong>All Joined Together</strong> in One App</p>
+                  </td>
+                </tr>
+              </table>
+              <table role="presentation" style="width:100%;border-collapse:collapse;border:0;border-spacing:0;">
+                <tr>
+                  <td>
+                    <table role="presentation" style="width:200;border-collapse:collapse;border:0;border-spacing:0;">
+                      <tr>
+                        <td align="center">
+                          <p><img src="https://i.ibb.co/4S6Z8jG/sync-art.png" alt="app" width="120"
+                              style="height:auto;display:block;" /></p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="center"
+                          style="text-transform: uppercase; color: #757575; font-weight: 700; font-size: 14px;">
+                          <p>Sync</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="center"
+                          style="color: #949B9A; font-size: 13px; padding: 0px 10px 0px 10px; line-height: 1.7;">
+                          <p>Sync all of your contacts and apps seamlessly.</p>
+                        </td>
+                      <tr>
+                        <td align="center" style="padding: 0px 0px 40px 0px;">
+                          <p>
+                            <a style="text-decoration: none; color: #2A92EC;" href="#">Learn More</a>
+                          </p>
+                        </td>
+                      </tr>
+                </tr>
+              </table>
+            </td>
+            <td>
+              <table role="presentation" style="width:200;border-collapse:collapse;border:0;border-spacing:0;">
+                <tr>
+                  <td align="center">
+                    <p><img src="https://i.ibb.co/wdbdfQ4/share.png" alt="app" width="120"
+                        style="height:auto;display:block;" /></p>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center"
+                    style="text-transform: uppercase; color: #757575; font-weight: 700; font-size: 14px;">
+                    <p>Share</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center"
+                    style="color: #949B9A; font-size: 13px; padding: 0px 10px 0px 10px; line-height: 1.7;">
+                    <p>Share the latest updates with your friends.</p>
+                  </td>
+                <tr>
+                  <td align="center" style="padding: 0px 0px 40px 0px;">
+                    <p>
+                      <a style="text-decoration: none; color: #2A92EC;" href="#">Learn
+                        More</a>
+                    </p>
+                  </td>
+                </tr>
+          </tr>
+        </table>
+      </td>
+      <td>
+        <table role="presentation" style="width:200;border-collapse:collapse;border:0;border-spacing:0;">
+          <tr>
+            <td align="center">
+              <p><img src="https://i.ibb.co/CnTCZ6r/stats.png" alt="app" width="120"
+                  style="height:auto;display:block;" /></p>
+            </td>
+          </tr>
+          <tr>
+            <td align="center" style="text-transform: uppercase; color: #757575; font-weight: 700; font-size: 14px;">
+              <p>Stats</p>
+            </td>
+          </tr>
+          <tr>
+            <td align="center" style="color: #949B9A; font-size: 13px; padding: 0px 10px 0px 10px; line-height: 1.7;">
+              <p>Get up to the second health stats 24/7.</p>
+            </td>
+          <tr>
+            <td align="center" style="padding: 0px 0px 40px 0px;">
+              <p>
+                <a style="text-decoration: none; color: #2A92EC;" href="#">Learn More</a>
+              </p>
+            </td>
+          </tr>
+    </tr>
+  </table>
+  </td>
+  </tr>
+  </table>
+  </td>
+  </tr>
+  <!-- End of Features Row -->
+
+  <!-- Start of Features Description Row -->
+  <tr>
+    <td style="padding: 0;">
+      <!-- Start Features Description Container Table -->
+      <table role="presentation"
+        style="width:100%;border-collapse:collapse;border:0;border-spacing:0; background: #FAFAFA;">
+        <tr>
+          <td>
+            <table role="presentation" style="width:300px; border-collapse:collapse;border:0;border-spacing:0;">
+              <tr>
+                <td style="padding: 0px 0px 0px 20px;">
+                  <p><img src="https://thumbs2.imgbox.com/58/93/5YLaleGn_b.png" alt="smartphone icon" width="45"
+                      style="height:auto;display:block; background: #ffffff; height: 45px; width: 45px; border-radius: 50%;" />
+                  </p>
+                </td>
+                <td style="text-transform: uppercase; color: #757575; font-weight: 700; font-size: 14px;">
+                  <p>Responsive Layout</p>
+                </td>
+              </tr>
+            </table>
+          </td>
+          <td>
+            <table role="presentation" style="width:300px; border-collapse:collapse;border:0;border-spacing:0;">
+              <tr>
+                <td>
+                  <p><img src="https://thumbs2.imgbox.com/e1/78/4yNqgy2y_b.png" alt="retina icon" width="45"
+                      style="height:auto;display:block; background: #ffffff; height: 45px; width: 45px; border-radius: 50%;" />
+                  </p>
+                </td>
+                <td style="text-transform: uppercase; color: #757575; font-weight: 700; font-size: 14px;">
+                  <p>Retina Ready</p>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <table role="presentation" style="width:300px; border-collapse:collapse;border:0;border-spacing:0;">
+              <tr>
+                <td style="color: #949B9A; font-size: 13px; padding: 0px 10px 0px 20px; line-height: 1.7;">
+                  <p>The Hero App works on all platforms and screen sizes including iOS and Android devices.</p>
+                </td>
+              </tr>
+            </table>
+          </td>
+          <td>
+            <table role="presentation" style="width:300px; border-collapse:collapse;border:0;border-spacing:0;">
+              <tr>
+                <td style="color: #949B9A; font-size: 13px; padding: 0px 10px 0px 10px; line-height: 1.7;">
+                  <p>View your favorite images and video in our award winning patented studding retina display. </p>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <table role="presentation" style="width:300px; border-collapse:collapse;border:0;border-spacing:0;">
+              <tr>
+                <td style="padding: 0px 0px 0px 20px;">
+                  <p><img src="https://thumbs2.imgbox.com/47/4e/nLFlBqUa_b.png" alt="smartphone icon" width="45"
+                      style="height:auto;display:block; background: #ffffff; height: 45px; width: 45px; border-radius: 50%;" />
+                  </p>
+                </td>
+                <td style="text-transform: uppercase; color: #757575; font-weight: 700; font-size: 14px;">
+                  <p>Various Skins</p>
+                </td>
+              </tr>
+            </table>
+          </td>
+          <td>
+            <table role="presentation" style="width:300px; border-collapse:collapse;border:0;border-spacing:0;">
+              <tr>
+                <td>
+                  <p><img src="https://thumbs2.imgbox.com/a4/fc/wdSPgqW0_b.png" alt="retina icon" width="45"
+                      style="height:auto;display:block; background: #ffffff; height: 45px; width: 45px; border-radius: 50%;" />
+                  </p>
+                </td>
+                <td style="text-transform: uppercase; color: #757575; font-weight: 700; font-size: 14px;">
+                  <p>Great Performance</p>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <table role="presentation" style="width:300px; border-collapse:collapse;border:0;border-spacing:0;">
+              <tr>
+                <td style="color: #949B9A; font-size: 13px; padding: 0px 10px 0px 20px; line-height: 1.7;">
+                  <p>Seamlessly switch between 30 different color modes to find the perfect app skin for you.</p>
+                </td>
+              </tr>
+            </table>
+          </td>
+          <td>
+            <table role="presentation" style="width:300px; border-collapse:collapse;border:0;border-spacing:0;">
+              <tr>
+                <td style="color: #949B9A; font-size: 13px; padding: 0px 10px 0px 10px; line-height: 1.7;">
+                  <p>Hero app was designed by the best and brightest minds of the mobile software industry.</p>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <table role="presentation" style="width:300px; border-collapse:collapse;border:0;border-spacing:0;">
+              <tr>
+                <td style="padding: 0px 0px 0px 20px;">
+                  <p><img src="https://thumbs2.imgbox.com/91/ae/CEjgn5tD_b.png" alt="smartphone icon" width="45"
+                      style="height:auto;display:block; background: #ffffff; height: 45px; width: 45px; border-radius: 50%;" />
+                  </p>
+                </td>
+                <td style="text-transform: uppercase; color: #757575; font-weight: 700; font-size: 14px;">
+                  <p>User Friendly Menus</p>
+                </td>
+              </tr>
+            </table>
+          </td>
+          <td>
+            <table role="presentation" style="width:300px; border-collapse:collapse;border:0;border-spacing:0;">
+              <tr>
+                <td>
+                  <p><img src="https://thumbs2.imgbox.com/8e/81/NCDdPCT7_b.png" alt="retina icon" width="45"
+                      style="height:auto;display:block; background: #ffffff; height: 45px; width: 45px; border-radius: 50%;" />
+                  </p>
+                </td>
+                <td style="text-transform: uppercase; color: #757575; font-weight: 700; font-size: 14px;">
+                  <p>Social Share</p>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <table role="presentation" style="width:300px; border-collapse:collapse;border:0;border-spacing:0;">
+              <tr>
+                <td style="color: #949B9A; font-size: 13px; padding: 0px 10px 40px 20px; line-height: 1.7;">
+                  <p>Easy to access menus make finding your favorite links and websites a blast.</p>
+                </td>
+              </tr>
+            </table>
+          </td>
+          <td>
+            <table role="presentation" style="width:300px; border-collapse:collapse;border:0;border-spacing:0;">
+              <tr>
+                <td style="color: #949B9A; font-size: 13px; padding: 0px 10px 40px 10px; line-height: 1.7;">
+                  <p>Easily post to all of your favorite social media platforms with a few taps of your finger.</p>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+      <!-- End Features Description Container Table -->
+    </td>
+  </tr>
+
+  <!-- End of Features Description Row -->
+
+  <!-- Start of Interested Row -->
+  <tr>
+    <td style="padding: 0;">
+      <table role="presentation" style="width: 100%; border-collapse:collapse;border:0;border-spacing:0;">
+        <tr>
+          <td align="center" style="background-color: #0879cf; background-color: rgb(100,255,252); padding: 0px 0px 40px 0px;
+            background: linear-gradient(126deg, rgba(100,255,252,1) 0%, rgba(33,150,238,1) 100%)">
+            <p style="font-size: 32px; font-weight: 300; color: #ffffff; padding: 10px 0px 0px 0px;">Interested in the
+              Hero
+              App?</p>
+            <p style="color: #ffffff; padding: 0px 40px 20px 40px; font-size: 13px; line-height: 1.7;">Download Hero
+              today in both the iOS and Android mobile stores. Still not convinced? Click the link below
+              to learn more about what Hero can do for you.</p>
+            <p style="text-transform: uppercase; padding: 0px 0px 20px 20px; margin: 0px;"><a
+                style="color: #ffffff; text-decoration: none; border: 2px solid #ffffff; padding: 10px 20px; font-size: 12px;"
+                href="#">Learn
+                More</a></p>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <!-- End of Interested Row -->
+
+  <!-- Start of footer row -->
+  <tr>
+    <td style="padding: 0; background: #FAFAFA  ;">
+      <table role="presentation " style="width: 100%; border-collapse:collapse;border:0;border-spacing:0;">
+        <tr>
+          <td align="center" style="font-size: 32px; font-weight: 700; text-transform: uppercase;">
+            <p>Hero</p>
+          </td>
+        </tr>
+      </table>
+      <table role="presentation" style="width: 100%; border-collapse:collapse;border:0;border-spacing:0;">
+        <tr>
+          <td align="center">
+            <p>
+              <a style="padding: 0px 5px 0px 5px; text-decoration: none;" href="#">
+                <img src="https://i.ibb.co/s6W64pn/twitter-icon.png" alt="twitter">
+              </a>
+              <a style="padding: 0px 5px 0px 5px; text-decoration: none;" href="#">
+                <img src="https://i.ibb.co/NZWRKXh/facebook-icon.png" alt="facebook">
+              </a>
+              <a style="padding: 0px 5px 0px 5px; text-decoration: none;" href="#">
+                <img src="https://i.ibb.co/6bR48Y8/google-icon.png" alt="google plus">
+              </a>
+              <a style="padding: 0px 5px 0px 5px; text-decoration: none;" href="#">
+                <img src="https://i.ibb.co/s9H4P13/pinterest-icon.png" alt="pinterest">
+              </a>
+              <a style="padding: 0px 5px 0px 5px; text-decoration: none;" href="#">
+                <img src="https://i.ibb.co/W6cPKzt/linkedin-icon.png" alt="linkedin">
+              </a>
+              <a style="padding: 0px 5px 0px 5px; text-decoration: none;" href="#">
+                <img src="https://i.ibb.co/ZX5G2Mv/youtube-icon.png" alt="youtube">
+              </a>
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td align="center" style="font-size: 13px;">
+            <p>&copy;2023 All Rights Reserved - Hero. Is your inbox overflowing? <a style="color: #2A92EC;"
+                href="#">Unsubscribe</a></p>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  </table>
+
+  </td>
+  </tr>
+  <!-- End of footer row -->
+  </table>
+  <!-- End of 600px Container -->
+  </td>
+  </tr>
+  </table>
+  <!-- End of Main Table Container -->
+</body>
+
+</html>
